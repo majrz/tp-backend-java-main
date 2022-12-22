@@ -1,0 +1,7 @@
+CREATE TABLE producto (
+	Id_Prod INT(10) NOT NULL AUTO_INCREMENT,
+	Nombre VARCHAR(50) NOT NULL,
+	Precio FLOAT NOT NULL,
+	Fecha_creacion DATE NOT NULL,
+	PRIMARY KEY (Id_Prod)
+)
